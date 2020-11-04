@@ -79,21 +79,22 @@ section {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 40%;
   margin: 3.5%;
   color: #024e76;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 40%;
+  margin: 3.5%;
 }
 
 .hero-form h3 {
