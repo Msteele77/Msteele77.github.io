@@ -108,7 +108,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
   background-attachment: fixed;
 }
 
