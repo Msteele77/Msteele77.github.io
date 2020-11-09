@@ -364,6 +364,12 @@ section {
   text-align: right;
 }
 
+
+.trainer-bio h3 .trainer-bio h4 {
+  visibility: hidden;
+}
+
+
 .trainer h3 {
   font-size: 28px;
   margin-bottom: 15px;
@@ -629,9 +635,11 @@ section {
     flex: 1 100%;
   }
 
-  .trainer-bio h3 .trainer-bio h3 .trainer-bio h4 {
-    display: block;
+  .trainer-bio h3 .trainer-bio h4 {
+    display: inline;
   }
+
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -685,11 +693,11 @@ section {
 
  
 
-  
-
-  .trainer-img h3 .trainer-img h4 .trainer-img::after {
-    display: none;
+  .trainer-bio h3 .trainer-bio h4 {
+    display: inline;
   }
+
+  
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -722,8 +730,8 @@ section {
     order: 3;
   }
 
-  .trainer-bio h3 .trainer-bio h3 .trainer-bio h4 {
-    display: block;
+  .trainer-bio h3 .trainer-bio h4 {
+    display: inline;
   }
 }
 
